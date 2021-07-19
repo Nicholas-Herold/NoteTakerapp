@@ -1,7 +1,7 @@
 
 
-const { response } = require('express');
 const fs = require('fs');
+const uuid = require('uuid')
 module.exports = function(app){
     let datatable = require('../db/db.json');
     app.get('/api/notes', (req,res) =>{
@@ -20,6 +20,8 @@ module.exports = function(app){
         
         
         let info = req.body
+        info.id = uuid.v1()
+        console.log(info)
         let dbnotes = JSON.parse( fs.readFileSync('./db/db.json','utf8'));
        
         
