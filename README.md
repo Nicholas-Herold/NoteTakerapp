@@ -1,4 +1,4 @@
-# NoteTakerapp# Note-Taker
+# NoteTakerapp
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
@@ -8,11 +8,11 @@ This is a simple Note Taker application that allows users to add, view saved not
 
 ## Deployed Application :
 
-[Note Taker](https://gauri-express-notetaker.herokuapp.com/)
+[Note Taker](https://ancient-brushlands-79997.herokuapp.com/)
 
 # Table of Contents
 
-- [Demo](#demo)
+- [Preview](#preview)
 - [Technology](#technology)
 - [Usage](#usage)
 - [Features](#features)
@@ -34,11 +34,16 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 - Being able to take persistent notes allows users to have written information available when needed.
 
-# Demo :
+# Preview :
 
-![Note Taker](public/assets/images/NoteTaker.gif)
+- Main Page
+  ![Main Page](images\home.PNG)
 
-# Application Preview :
+- Note Page
+  ![Note Page](images\notes1.PNG)
+
+- Notes Made
+  ![With Notes](images\notes2.PNG)
 
 # Technology :
 
